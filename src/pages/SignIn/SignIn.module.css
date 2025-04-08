@@ -4,10 +4,11 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    background-color: aqua;
 }
 
 .row {
-    background-color: #bba6f1;
+    background-color: red;
     width: 40vw;
     height: 90vh;
     display: flex;

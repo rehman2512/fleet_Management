@@ -1,0 +1,238 @@
+.Container {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: 0px 10px 15px -3px #0000001a;
+    border-radius: 6px;
+    background: white;
+}
+
+.ContainerClose {
+    height: 100vh;
+    padding: 15px;
+    overflow-y: scroll;
+    width: 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerFluid {
+    margin: 0px;
+    padding-left: 0px;
+    background-color: #f3f4f6;
+}
+
+.LogoClose {
+    width: 50px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.sideList {
+    margin-top: 40px;
+}
+
+.sidersMenus {
+    display: flex;
+    padding: 0px !important;
+}
+
+.ContainerHeader {
+    background: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0px 9px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    padding: 0px !important;
+}
+
+.headerSearch {
+    display: flex;
+    align-items: center;
+}
+
+.menuIcon {
+    margin: 0px 5px;
+    color: #e1d7f9;
+}
+
+.Dropdown {
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dropdown a {
+    text-decoration: none !important;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.amdin {
+    font-size: 24px;
+    margin: 8px;
+}
+
+.profileContainer {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 100px;
+    background: #aa91ed;
+}
+
+.contentSide {
+    display: flex;
+    flex-direction: column;
+    width: 86vw;
+    background: #ececec;
+}
+
+.languageSection {
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.LogoOpen {
+    padding: 8px;
+}
+
+.sideListMenu {
+    background-color: transparent !important;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .ContainerClose {
+        width: 12vw;
+    }
+
+    .contentSide {
+        width: 84vw;
+    }
+
+    .ContainerHeader {
+        height: 12vh;
+        padding: 10px;
+    }
+
+    .amdin {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .ContainerClose {
+        width: 15vw;
+    }
+
+    .contentSide {
+        width: 80vw;
+    }
+
+    .ContainerHeader {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 10px;
+    }
+
+    .headerSearch {
+        margin-top: 10px;
+    }
+
+    .amdin {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Container {
+        height: auto;
+    }
+
+    .ContainerClose {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contentSide {
+        width: 100%;
+    }
+
+    .sideList {
+        margin-top: 20px;
+    }
+
+    .sidersMenus {
+        flex-wrap: wrap;
+    }
+
+    .ContainerHeader {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profileContainer {
+        width: 35px;
+        height: 35px;
+    }
+
+    .Dropdown {
+        flex-direction: column;
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .ContainerClose {
+        display: none;
+    }
+
+    .contentSide {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .sideList {
+        margin-top: 10px;
+    }
+
+    .ContainerHeader {
+        padding: 5px;
+    }
+
+    .amdin {
+        font-size: 16px;
+    }
+
+    .profileContainer {
+        width: 30px;
+        height: 30px;
+    }
+
+    .LogoClose {
+        width: 40px;
+        height: 12px;
+    }
+}

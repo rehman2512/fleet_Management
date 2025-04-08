@@ -1,0 +1,46 @@
+.Container {
+    padding: 2rem;
+}
+
+.HeaderRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeaderRow h3 {
+    font-weight: 600;
+    margin: 0px !important;
+}
+
+.TableWrapper {
+    background-color: white;
+    width: 100%;
+    border-radius: 0.4rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.actions {
+    padding-inline: 0.2rem;
+    width: 8rem;
+    padding-block: 0.2rem;
+    border-radius: 0.2rem;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.dropdownItem {
+    padding-inline: 0.5rem;
+    padding-block: 0.3rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    font-family: "Poppins", serif;
+}
+
+
+.dropdownItem:hover {
+    background-color: rgb(238, 238, 238);
+    border-radius: 0.2rem;
+}

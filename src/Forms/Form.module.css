@@ -1,5 +1,6 @@
 .Container {
-    margin-top: 15px;
+    margin: 1rem;
+    width: 85vw;
 }
 
 
@@ -81,4 +82,16 @@
 
 .field{
     margin: 5px;
+}
+
+
+.title{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.Container{
+ background-color: #ffffff;   
+ padding: 10px;
+ border-radius: 10px;
 }
